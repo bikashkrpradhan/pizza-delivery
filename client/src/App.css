@@ -1,0 +1,25 @@
+.main{
+    display:flex;
+}
+.cartInfo{
+    display: flex;
+    flex-direction: column;
+}
+.minus{
+    color: red;
+    cursor: pointer;
+}
+.plus{
+    color:green;
+    cursor: pointer;
+}
+.trash{
+    color:red;
+    cursor: pointer;
+}
+
+@media (max-width: 700px){
+    .cartContainer{
+        flex-direction: column;
+    }
+}
